@@ -5,6 +5,7 @@
   width: 100%;
   height: calc(100vh - 64px);
   flex-direction: column;
+  margin-top: -64px;
 }
 
 .content p {
@@ -15,7 +16,7 @@
 }
 
 .content .title {
-  font-size: 36px;
+  font-size: 64px;
   color: #f1f1f1;
 }
 
