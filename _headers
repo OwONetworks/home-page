@@ -1,0 +1,10 @@
+/
+  Link: <js/index.subtitle.js> rel=preload; as=script;
+  Link: <css/a.css> rel=preload; as=style;
+  Link: <css/b612.css> rel=preload; as=style;
+  Link: <css/background.css> rel=preload; as=style;
+  Link: <css/index-bottom.css> rel=preload; as=style;
+  Link: <css/index-content.css> rel=preload; as=style;
+  Link: <css/menu.css> rel=preload; as=style;
+  Link: <fonts/B612-Regular.ttf> rel=preload; as=font;
+  Link: <fonts/B612-Bold.ttf> rel=preload; as=font;
