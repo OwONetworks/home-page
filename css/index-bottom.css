@@ -1,0 +1,18 @@
+.bottom {
+  position: fixed;
+  bottom: 12px;
+  left: 12px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100% - 24px);
+}
+
+.bottom * {
+  color: #ccc;
+  margin: 0;
+  font-size: 12px;
+  font-family: 'B612-Regular';
+}

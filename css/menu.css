@@ -1,0 +1,23 @@
+.menu {
+  height: 64px;
+  padding: 0 32px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 64px;
+}
+
+.menu * {
+  color: #fff;
+  margin: 0;
+  font-family: 'B612-Regular';
+}
+
+.menu .title {
+  font-size: 24px;
+  font-family: 'B612-Regular';
+  font-style: italic;
+}
+
+.menu .links a {
+  margin: 0 8px;
+}

@@ -1,0 +1,50 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 64px);
+  flex-direction: column;
+}
+
+.content p {
+  color: #fff;
+  font-size: 24px;
+  font-family: 'B612-Regular';
+  margin: 8px 0;
+}
+
+.content .title {
+  font-size: 36px;
+  color: #f1f1f1;
+}
+
+.content .subtitle {
+  color: #ccc;
+  font-size: 16px;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.content .subtitle-text::after {
+  content: '';
+  display: inline-block;
+  width: 2px;
+  height: 0.8em;
+  margin-bottom: 0.3em;
+  vertical-align: bottom;
+  background: #fff;
+  margin-left: 4px;
+  animation: blink 1s infinite;
+  margin-right: 4px;
+}

@@ -1,0 +1,29 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: #2C2C2C;
+}
+
+.background .item {
+  width: 322px;
+  height: 322px;
+  position: absolute;
+  filter: blur(120px);
+  border-radius: 50%;
+}
+
+.background .item1 {
+  background-color: #5F8FE1;
+  top: 10%;
+  left: 10%;
+}
+
+.background .item2 {
+  background-color: #E19E5F;
+  right: 10%;
+  bottom: 10%;
+}

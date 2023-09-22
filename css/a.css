@@ -1,0 +1,26 @@
+a {
+  color: #7CACF8 !important;
+  text-decoration: none !important;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+
+a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #7CACF8;
+  transition: width 0.2s ease-in-out;
+  position: absolute;
+  bottom: 0;
+}
+
+a:hover {
+  color: #7CACF8 !important;
+  text-decoration: none;
+}
+
+a:hover::after {
+  width: 100%;
+}

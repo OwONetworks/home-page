@@ -1,0 +1,9 @@
+/* @font-face {
+  font-family: 'B612-Bold';
+  src: url("../fonts/B612-Bold.ttf");
+} */
+
+@font-face {
+  font-family: "B612-Regular";
+  src: url("../fonts/B612-Regular.ttf");
+}
