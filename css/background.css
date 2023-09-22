@@ -5,7 +5,7 @@
   top: 0;
   left: 0;
   z-index: -1;
-  background-color: #2C2C2C;
+  background-color: #090909;
 }
 
 .background .item {
@@ -17,13 +17,13 @@
 }
 
 .background .item1 {
-  background-color: #5F8FE1;
+  background-color: #3a6dc4;
   top: 10%;
   left: 10%;
 }
 
 .background .item2 {
-  background-color: #E19E5F;
+  background-color: #a6692f;
   right: 10%;
   bottom: 10%;
 }
