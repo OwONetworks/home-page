@@ -11,7 +11,8 @@
 }
 
 .bottom * {
-  color: #ccc;
+  color: #fff;
+  opacity: 0.6;
   margin: 0;
   font-size: 12px;
   font-family: 'B612-Regular';
