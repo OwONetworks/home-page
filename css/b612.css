@@ -6,4 +6,5 @@
 @font-face {
   font-family: "B612-Regular";
   src: url("../fonts/B612-Regular.ttf");
+  font-display: swap;
 }
