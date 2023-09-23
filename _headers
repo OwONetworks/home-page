@@ -7,3 +7,6 @@
   Link: <css/index-content.css>; rel=preload; as=style
   Link: <css/menu.css>; rel=preload; as=style
   Link: <fonts/B612-Regular.ttf>; rel=preload; as=font
+
+/fonts/B612-Regular.ttf
+  Cache-Control: public, max-age=31536000
