@@ -8,7 +8,7 @@ const typewriters = (text, element) => {
       // 先删除文字
       while (element.innerText.length > 0) {
         element.innerText = element.innerText.slice(0, -1);
-        await sleep(50);
+        await sleep(40);
       }
     }
 
@@ -17,7 +17,7 @@ const typewriters = (text, element) => {
     // 模拟打字机
     for (let i = 0; i < text.length; i++) {
       element.innerText += text[i];
-      await sleep(100);
+      await sleep(60);
     }
 
     // 打字完成
