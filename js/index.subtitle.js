@@ -28,12 +28,11 @@ const typewriters = (text, element) => {
 const subtitle = document.querySelector('.subtitle-text');
 
 const sentences = [
-  '正在..摸鱼！',
-  '正在做一些有趣的事情~',
-  '这是什么呢..?',
-  '欸嘿，被找到了呢~',
-  '咕咕？咕咕咕！',
-  '喵喵狐！',
+  'Slacking off!',
+  'Trying to do something interesting~',
+  'Ehe~ I\'ve been found~',
+  'coo coo? coo coo coo!',
+  'Neko Fox!',
   '谁だって可爱く変わりたいんだ~'
 ]
 
